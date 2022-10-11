@@ -1,2 +1,8 @@
-testauto-2@172.21.215.252
+[web_servers]
 testauto@10.53.136.87
+
+[db_servers]
+testauto-2@172.21.215.252
+
+[file_servers]
+testauto-3@172.21.222.46
