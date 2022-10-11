@@ -4,9 +4,10 @@
   become: true
   tasks:
 
-  - name: remove apache & php  packages
+  - name: install apache & php packages
     package:
       name:
         - "{{ apache_package }}"
         - "{{ php_package }}"
-      state: absent
+      state: latest
+      update_cache: yes
