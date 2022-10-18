@@ -15,7 +15,7 @@
     enabled: yes
   when: ansible_distribution == "CentOS"
 
-- name: install apache2 package (Ubuntu)
+- name: install apache2 package (ubuntu)
   tags: apache,apache2,ubuntu
   apt:
     name:

@@ -11,7 +11,7 @@
     changed_when: false
     when: ansible_distribution == "CentOS"
 
-  - name: update repository index (Ubuntu)
+  - name: update repository index (ubuntu)
     tags: always
     apt:
       update_cache: yes
