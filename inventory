@@ -2,10 +2,10 @@
 testauto@10.53.136.87
 
 [db_servers]
-testauto-2@172.18.133.14
+testauto-2@172.30.168.180
 
 [file_servers]
-testauto-3@172.18.136.153
+testauto-3@172.30.172.233
 
 [workstations]
-testauto-1@172.18.139.69
+testauto-1@172.30.168.48
